@@ -1,4 +1,6 @@
 #!/bin/bash
+# https://github.com/Ceryn/img
+
 clientid='3e7a4deb7ac67da'
 img=$(date '+/tmp/%N.png')
 

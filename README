@@ -1,5 +1,8 @@
 img : Minimalistic screenshot uploader for Linux
 
-img is a minimalistic bash script that uploads a screen selection to imgur. On success, it copies the image link to the clipboard and sounds a bell. On failure, it writes the curl output to /tmp/, where the image is also stored. img produces no output.
+img is a minimalistic bash script that uploads a screen selection to imgur.
+On success, it copies the image link to the clipboard and sounds a bell.
+On failure, it writes the curl output to /tmp/, where the image is also stored.
+No output is produced.
 
 img depends on scrot, curl and xclip.
