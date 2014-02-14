@@ -6,3 +6,5 @@ On failure, it writes the curl output to /tmp/, where the image is also stored.
 No output is produced.
 
 img depends on scrot, curl and xclip.
+
+Recommended usage: Bind a key (such as PrtSc) to execute the script easily.
