@@ -6,3 +6,10 @@ On failure, it writes the curl output to /tmp/, where the image is also stored.
 No output is produced.
 
 img depends on scrot, curl and xclip.
+You can use the following command to check dependencies:
+
+    for p in scrot curl xclip; do test $(command -v $p) && echo "Ok $p" || echo "No $p"; done
+
+Recommended usage: Bind a key (such as PrtSc) to execute the script easily.
+Note: If you are using dwm, you will need to use the following patch for
+screen selections: http://dwm.suckless.org/patches/keypressrelease.
