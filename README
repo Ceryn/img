@@ -7,7 +7,6 @@ No output is produced.
 
 img depends on scrot, curl and xclip.
 You can use the following command to check dependencies:
-
     for p in scrot curl xclip; do test $(command -v $p) && echo "Ok $p" || echo "No $p"; done
 
 Recommended usage: Bind a key (such as PrtSc) to execute the script easily.
